@@ -87,9 +87,10 @@ public class Principal {
 		}
 	}
 	/**
-	 * Metodo que calcula si le consece el permiso para poder abrir las puertas
-	 * @param nivel
-	 * @return 
+	 * Metodo que calcula si le concede el permiso para poder abrir las puertas
+	 * @author kevin
+	 * @param nivel , Que es el un int que recibe del nivel del agua para decir si concede el permiso o no.
+	 * @return Booleano , Si esta por debajo del 50 devuelve un False sino devuelve True.
 	 */
 	static boolean solicitarPermiso(int nivel) {
 		if (nivel > 50) {
